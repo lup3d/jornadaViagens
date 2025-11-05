@@ -4,3 +4,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* VARIAVEIS CSS */
+
+:root {
+--backgroundcolor: #ffffff;
+--footerbackgroundcolor: #000000;
+--navbarbackgroundcolor: #000000;
+--cardbackgroundcolor: #F5F5F5;
+--cardiconconcolor: #8C8C8C;
+--textcolor: #222222;
+--buttoncolor: #B81515;
+--buttonhovercolor: #8F0101;
+--subtitlecolor: #8C8C8C;
+
+
+}
