@@ -15,18 +15,18 @@
 /* VARIAVEIS CSS */
 
 :root {
---backgroundcolor: #ffffff;
---footerbackgroundcolor: #000000;
---navbarbackgroundcolor: #000000;
---cardbackgroundcolor: #F5F5F5;
---cardiconconcolor: #8C8C8C;
---textcolor: #222222;
---buttoncolor: #B81515;
---buttonhovercolor: #8F0101;
---subtitlecolor: #8C8C8C;
+  --backgroundcolor: #ffffff;
+  --footerbackgroundcolor: #000000;
+  --navbarbackgroundcolor: #000000;
+  --cardbackgroundcolor: #f5f5f5;
+  --cardiconconcolor: #8c8c8c;
+  --textcolor: #222222;
+  --buttoncolor: #b81515;
+  --buttonhovercolor: #8f0101;
+  --subtitlecolor: #8c8c8c;
 
---textfont: 'Montserrat', sans-serif;
---titleweight: 700;
---menuweight: 500;
---textweight: 400;
+  --textfont: "Montserrat", sans-serif;
+  --titleweight: 700;
+  --menuweight: 500;
+  --textweight: 400;
 }
