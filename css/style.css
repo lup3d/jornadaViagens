@@ -5,6 +5,13 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Montserrat", sans-serif;
+  src: url(../fonts/Montserrat-Regular.ttf);
+  font-style: normal;
+  font-display: swap;
+}
+
 /* VARIAVEIS CSS */
 
 :root {
@@ -18,5 +25,8 @@
 --buttonhovercolor: #8F0101;
 --subtitlecolor: #8C8C8C;
 
-
+--textfont: 'Montserrat', sans-serif;
+--titleweight: 700;
+--menuweight: 500;
+--textweight: 400;
 }
