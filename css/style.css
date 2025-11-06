@@ -30,3 +30,7 @@
   --menuweight: 500;
   --textweight: 400;
 }
+
+header {
+  background-color: var(--navbarbackgroundcolor);
+}
