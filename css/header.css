@@ -37,6 +37,8 @@ nav {
   color: var(--backgroundcolor);
   list-style: none;  
   text-decoration: none;
+  font-size: 24px;
+  font-weight: var(--menuweight);
 }
 
 .list-links li {
@@ -44,3 +46,29 @@ nav {
 }
 
 
+@media screen and (min-width: 768px) {
+  
+  .navigation-menu {
+    width: 467px;
+    margin: 0px;
+  }
+  
+  .navigation-menu label {
+     display: none;
+  }
+
+  .navigation-menu nav {
+    display: block;
+  }
+  
+  .navigation-menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+  }
+  
+
+
+  
+}
