@@ -35,8 +35,12 @@ nav {
 
 .list-links li a {
   color: var(--backgroundcolor);
-  list-style: none;
-  margin-bottom: 16px;
+  list-style: none;  
   text-decoration: none;
 }
+
+.list-links li {
+ margin: 16px 0;
+}
+
 
