@@ -6,8 +6,8 @@
 }
 
 @font-face {
-  font-family: "Montserrat", sans-serif;
-  src: url(../fonts/Montserrat-Regular.ttf);
+  font-family: "Montserrat";
+  src: url(../fonts/Montserrat-VariableFont_wght.ttf);
   font-style: normal;
   font-display: swap;
 }
@@ -25,12 +25,18 @@
   --buttonhovercolor: #8f0101;
   --subtitlecolor: #8c8c8c;
 
-  --textfont: "Montserrat", sans-serif;
   --titleweight: 700;
   --menuweight: 500;
   --textweight: 400;
+
+  
 }
 
 header {
   background-color: var(--navbarbackgroundcolor);
 }
+
+body {
+  font-family: "Montserrat";
+ 
+} 

@@ -4,7 +4,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-
+  position: relative;
   padding: 38px 48px;
 }
 
@@ -20,9 +20,23 @@ header {
 
 input[type="checkbox"]:checked ~ nav {
   display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: var(--navbarbackgroundcolor);
+  
 }
 
 nav {
   display: none;
+
+}
+
+.list-links li a {
+  color: var(--backgroundcolor);
+  list-style: none;
+  margin-bottom: 16px;
+  text-decoration: none;
 }
 
